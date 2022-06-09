@@ -4,6 +4,7 @@ import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import ContactForm from './Components/ContactForm/ContactForm';
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Resume from './Components/Resume/Resume';
@@ -20,6 +21,7 @@ function App() {
         <Route path="contact" element={<ContactForm/>} />
         <Route path="about" element={<About/>} />
     </Routes>
+      <Footer></Footer>
     </div>
   );
 }
